@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  /* background-color: black; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+
+body {
+  background-color: black;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #05ace9f6;
+}
+
+.nav-bar {
+  height: 60px;
+  .logo {
+    width: 50px;
+  }
+}
+
+#banner {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.locations {
+  color: grey;
+}
+
+.about {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.desc {
+  width: 50%;
+}
+
+.team {
+  width: 50%;
+  padding-left: 20px;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.job-role {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-style: italic;
+}
+
+.apply {
+  float: right;
+  color: rgb(196, 93, 243);
+}
+
+footer {
+  background-color: rgba(128, 128, 128, 0.204);
+  padding: 10px;
+  ul {
+    list-style: none;
+    li {
+      display: inline;
+      margin: 0 16px;
+    }
+  }
+  text-align: center;
+  .copy-right {
+    color: gray;
+  }
+}    
